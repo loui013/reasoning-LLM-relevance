@@ -2,8 +2,11 @@
 Resources created as part of the paper "Reasoning with Large Language Models for Relevance Judgements". This repository contains the output files for all four runs using the full TREC 2023 Deep Learning dataset in `.jsonl` format.
 
 `judgements_gpt-oss-low.jsonl` : gpt-oss-120b with reasoning_effort set to low
+
 `judgements_gpt-oss-high.jsonl`: gpt-oss-120b with reasoning_effort set to high
+
 `judgements_gemini-2.5-flash-0.jsonl`: Gemini 2.5-Flash with thinking_budget set to 0
+
 `judgements_gemini-2.5-flash-500.jsonl`: Gemini 2.5-Flash with thinking_budget set to 500
 
 All files are structured the following way:
