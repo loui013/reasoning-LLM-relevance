@@ -10,7 +10,8 @@ Resources created as part of the paper "Reasoning with Large Language Models for
 `judgements_gemini-2.5-flash-500.jsonl`: Gemini 2.5-Flash with thinking_budget set to 500
 
 All files are structured the following way:
-```{
+```
+{
   "query_id": str, # Query ID
   "query": str, # Query
   "passage_id": str, # Passage ID
@@ -21,5 +22,5 @@ All files are structured the following way:
   "llm_relevance": int, # Relevance label assigned by LLM (-1 if not in format ##final score: X)
   "total tokens": int, # Total tokens used, i.e. input + output tokens
   "output tokens": int, # Tokens used for reasoning and final answer
-  "elapsed time": float # Total time from first response to completion current line in seconds
-}`
+  "elapsed time": float # Total time from first response to completion of current line in seconds
+}
