@@ -1,5 +1,5 @@
 # reasoning-LLM-relevance
-Resources created as part of the paper "Reasoning with Large Language Models for Relevance Judgements". This repository contains the output files for all four runs using the full TREC 2023 Deep Learning dataset in `.jsonl` format.
+Resources created as part of the paper "Reasoning with Large Language Models for Relevance Judgements". This repository contains the output files for all four runs using the full TREC 2023 Deep Learning and DL-HARD datasets in `.jsonl` format.
 
 `judgements_gpt-oss-low.jsonl` : gpt-oss-120b with reasoning_effort set to low
 
